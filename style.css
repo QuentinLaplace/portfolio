@@ -1,0 +1,412 @@
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-SemiBold.ttf);
+ }
+ @font-face {
+    font-family: OpenSans;
+    src: url(font/OpenSans-Regular.ttf);
+ }
+ 
+ * {
+    font-family: Poppins;
+}
+.text{
+    font-family: OpenSans;
+    font-size: larger;
+}
+.nav-link{
+    color: darkslategrey ;
+}
+.btn-hire{
+    background-color: #0f005b;
+    color: white;
+    border-radius: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.navbar{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+}
+
+.carre-bleu-ciel{
+    background-color: #0ad2ec;
+    height: 65vh;
+    width: 60%;
+    border-radius: 75px;
+    position: relative;
+    z-index: 1;
+    margin-left: 25%;
+    margin-top: -25vh;
+}
+
+.carre-bleu-fonce{
+    margin-top: 25vh;
+    width: 100%;
+    background-color: #0f005b;
+    height: 60vh;
+    border-top-left-radius: 100px;
+}
+
+#home{
+    padding-top: 10vh;
+}
+
+.home-img-box{
+    position: relative;
+    margin-top: 5vh;
+}
+
+.home-title{
+    color: #0f005b;
+    font-weight: bold;
+    font-size: large;
+}
+.home-subtitle{
+    font-size: 3.2rem;
+}
+
+.home-text-box{
+    padding-left: 10%;
+    margin-top: 20vh;
+    margin-right: 5vw;
+}
+
+.nav-header > li > .nav-link:hover{
+    color: #0f005b ;
+}
+
+.carre-bleu-ciel2{
+    background-color: #0ad2ec;
+    height: 20vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 20%;
+    border-bottom-right-radius: 100px;
+}
+.carre-jaune{
+    background-color: #fcd00d;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 25px;
+    margin-left: -23vh;
+    margin-top: 15vh;
+}
+#about{
+    margin-top: 10vh;
+}
+.about-subtitle{
+    display: flex;
+    font-size: 3.2rem;
+    margin-top: -3vh;
+    margin-left: -6vw;
+}
+
+.carre-bleu-ciel3{
+    background-color: #0ad2ec;
+    height: 30vh;
+    width: 20vh;
+    border-bottom-right-radius: 75px;
+}
+
+@media (max-width: 992px) {
+    .about-text {
+      margin-top: 10vh;
+    }
+  }
+
+
+.school-title{
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.trait{
+    height: 0.4vh;
+    display: flex;
+    background-color: #0f005b;
+    border-radius: 75px;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.carre-bleu-fonce2{
+    background-color: #0f005b;
+    height: 80vh;
+    width: 66.66%;
+    border-top-right-radius: 100px;
+}
+
+.mt-10{
+    margin-top: 10vh;
+}
+
+.mt-30{
+    margin-top: 30vh;
+}
+
+.bandeau-school{
+    height: 20vh;
+    border-radius: 15px;
+    width: 96%;
+    padding-left: 2vh;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    margin-left: -1%;
+}
+
+.trait-vertical{
+    width: 1%;
+    height: 20vh;
+    background-color: #0f005b;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#trait-fonce{
+    background-color: #0f005b;
+}
+
+#trait-claire{
+    background-color: #0ad2ec;
+}
+.school-bandeau-title{
+    font-size: x-large;
+}
+
+#school-titre-fonce{
+    color: #0f005b;
+}
+
+#school-titre-claire{
+    color: #0ad2ec;
+}
+
+.school-bandeau-text{
+    font-family: OpenSans;
+}
+
+#bandeau-color{
+    background-color: #0f005b;
+    color: white;
+    padding-top: 1vh;
+    width: 100%;
+}
+
+.carre-skill{
+    background-color: blue;
+    height: 15vh;
+    width: 20%;
+    margin-left: 20%;
+    border-radius: 15px;
+    margin-bottom: 5vh;
+}
+
+.mt-7{
+    margin-top: 7vh;
+}
+
+.mt-20{
+    margin-top: 20vh;
+}
+
+.decalage-carre{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.skill-title{
+    font-size: 3.2rem;
+}
+
+.p-15{
+    padding-right: 15vh;
+}
+
+.pourcentage-skill{
+    float: right;
+}
+
+.progress-bar-div{
+    margin-top: 5%;
+}
+
+#skill-fonce{
+    color: #0f005b;
+}
+
+#skill-bar-fonce{
+    background-color: #0f005b;
+}
+
+#skill-claire{
+    color: #0ad2ec;
+}
+
+#skill-bar-clair{
+    background-color: #0ad2ec;
+}
+
+#skill-red{
+    color: red;
+}
+
+#skill-bar-red{
+    background-color: red;
+}
+
+#skill-purple{
+    color: purple;
+}
+
+#skill-bar-purple{
+    background-color: purple;
+}
+
+.rond-skill{
+    background-color: white;
+    border-radius: 100%;
+    height: 70%;
+    width: 70%;
+    margin: 15%;
+    text-align: center;
+}
+
+.rond-skill2{
+    background-color: #0ad2ec;
+    color: white;
+    border-radius: 100%;
+    height: 70%;
+    width: 70%;
+    margin: 15%;
+    text-align: center;
+}
+
+.span-skill{
+    margin-top: 4vh;
+    display: inline-block;
+}
+
+#carousel-example-2{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.trait-hobbies{
+    margin-right: 20%;
+}
+
+.text-hobbie{
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.hobbie{
+    font-size: x-large;
+}
+.hobbie-number{
+    background-color: #0ad2ec;
+    border-radius: 200%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    font-size: large;
+}
+
+.carre-hobbie{
+    background-color: #0ad2ec;
+    height: 70vh;
+    width: auto;
+    border-top-left-radius: 75px;
+}
+
+#nav-footer{
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+}
+
+.credit{
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    text-align: center;
+    color: grey;
+    font-family: OpenSans;
+}
+
+.nom-dev{
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    text-align: center;
+    color: #0ad2ec;
+    font-size: x-large;
+}
+
+#footer{
+    background-color: #232323;
+    height: 40vh;
+    padding-top: 20vh;
+}
+
+.nav-footer > li > .nav-link{
+    color: #252129;
+    font-family: OpenSans;
+    font-size: 0.9em;
+}
+.footer-navbar{
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+}
+
+.footer-navbar > a:hover{
+    color: #0ad2ec;    
+}
+
+.footer-navbar > a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+}
+
+.nav-footer > li > .nav-link:hover{
+    color: #0ad2ec ;
+}
+.contact{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.5);
+    border-radius: 15px;
+    height: 15vh;
+    margin-bottom: -7.5vh;
+    z-index: 10;
+    position: relative;
+    margin-top: 10vh;
+}
+
+.footer-question{
+    color: #0f005b;
+    font-size: 2em;
+    padding-top: 2vh;
+}
+.email{
+    letter-spacing: 2px;
+    font-size: larger;
+    padding-top: 1vh;
+}
+.navbar-footer{
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+}
+
+.nav-link{
+    cursor: pointer;
+    color:#252129;
+}
