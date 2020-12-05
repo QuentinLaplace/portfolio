@@ -100,7 +100,7 @@
     margin-top: 15vh;
 }
 #about{
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 .about-subtitle{
     display: flex;
@@ -139,7 +139,7 @@
 
 .carre-bleu-fonce2{
     background-color: #0f005b;
-    height: 80vh;
+    height: 70vh;
     width: 66.66%;
     border-top-right-radius: 100px;
 }

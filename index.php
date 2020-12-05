@@ -138,7 +138,9 @@
     <div class="row mt-10">
       <div class="col-lg-6">
         <div class="carre-bleu-fonce2">
-
+        <div class="div-img-home">
+          <img src="img/etudiant.png" class="img-home" alt="Responsive image">  
+        </div>
         </div>
       </div>
 
