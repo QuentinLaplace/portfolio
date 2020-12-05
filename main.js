@@ -56,16 +56,44 @@ $(document).ready(function() {
 
 
 
-    var i = 0;
+    let i = 0;
+    let j = 0;
+    let k = 0;
+    let l = 0;
     $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
         if (scroll > 2600){
-           while(i < 80){
+
+           while(i < 95){
             setInterval(function(){
                 $("#skill-bar-fonce").css("width", i + "%").attr("aria-valuenow", i);
                 
-            },1000);
+            },500);
             i = i + 1;
+           }
+           i
+           while(j < 80){
+            setInterval(function(){
+                $("#skill-bar-clair").css("width", j + "%").attr("aria-valuenow", j);
+                
+            },1000);
+            j = j + 1;
+           }
+
+           while(k < 70){
+            setInterval(function(){
+                $("#skill-bar-red").css("width", k + "%").attr("aria-valuenow", k);
+                
+            },1500);
+            k = k + 1;
+           }
+
+           while(l < 65){
+            setInterval(function(){
+                $("#skill-bar-purple").css("width", l + "%").attr("aria-valuenow", l);
+                
+            },2000);
+            l = l + 1;
            }
         }
     });
