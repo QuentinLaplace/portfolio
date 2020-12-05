@@ -66,10 +66,15 @@
 
     <div class="home-img-box w-50 d-flex">
       <div class="carre-bleu-fonce">
+        
         <div class="carre-bleu-ciel">
-
+        </div>
+      
+        <div class="div-img-home">
+          <img src="img/quentin.png" class="img-home" alt="Responsive image">  
         </div>
       </div>
+
 
     </div>
   </section>

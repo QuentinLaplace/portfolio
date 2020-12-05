@@ -52,6 +52,7 @@
     background-color: #0f005b;
     height: 60vh;
     border-top-left-radius: 100px;
+    position: relative;
 }
 
 #home{
@@ -409,4 +410,14 @@
 .nav-link{
     cursor: pointer;
     color:#252129;
+}
+
+.div-img-home{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+}
+
+.img-home{
+    width: 100%;
 }
