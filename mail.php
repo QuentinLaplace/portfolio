@@ -29,34 +29,8 @@
     if (empty($messageError)){
         // mail ()
 
-
-
-        try{
-            $mail = new PHPMailer();
-            $mail->SMTPSecure = 'tls';
-            $mail->Username = "quent-73@hotmail.com";
-            $mail->Password = "alexandrajoly73";
-            $mail->AddAddress("quent-73@hotmail.com");
-            $mail->FromName = "My Name";
-            $mail->Subject = "My Subject";
-            $mail->Body = "My Body";
-            $mail->Host = "smtp.live.com";
-            $mail->Port = 587;
-            $mail->IsSMTP();
-            $mail->SMTPAuth = true;
-            $mail->From = $mail->Username;
-            $mail->Send();
-        }
-        catch(Exception $e ){
-            echo $e->toString();
-        }
-
-
-
         $_SESSION["msgN"] = 0;
         $messageError = "Votre mail c'est bien envoyé !";
-
-
 
         // if (mail pas envoyé){
         //     $messageError = "Votre mail ne c'est pas envoyé, nous allons réglé le problème rapidement. Désolé du dérangement, mais vous pouvez me contacter sur Quent-73@hotmail.fr.";

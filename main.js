@@ -56,4 +56,23 @@ $(document).ready(function() {
 
 
 
+    var i = 0;
+    $(window).scroll(function (event) {
+        var scroll = $(window).scrollTop();
+        if (scroll > 2600){
+           while(i < 80){
+            setInterval(function(){
+                $("#skill-bar-fonce").css("width", i + "%").attr("aria-valuenow", i);
+                
+            },1000);
+            i = i + 1;
+           }
+        }
+    });
+
+
+
+
+
+
 });
